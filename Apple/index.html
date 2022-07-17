@@ -1,0 +1,290 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com/"></script><!--le lien cdn pour tailwindcss --> 
+  
+
+    <title>apple css</title>
+</head>
+<body>
+    <!-- debut nav-->
+<!--la barre de navigation  hauteur 10 et background color noir --> 
+    <nav class="h-10 bg-black  ">
+    <ul class="text-white flex justify-center justify-between  text-sm max-w-4xl mx-auto py-2 font-light  "> 
+        <div class="w-5">
+            <img src="./images/apple-svgrepo-com.svg" alt="" srcset="">
+        </div>
+        <li>Store</li>
+        <li>Mac</li>
+        <li>Iphone</li>
+        <li>Ipad</li>
+        <li>Watch</li>
+        <li>AirPods</li>
+        <li>TV & Maison</li>
+        <li>Assitance</li>
+        <li>Accessoire</li>
+        
+        <div class="w-5">
+            <img src="./images/search-3-48.png" alt="" srcset="">
+        </div>
+        <div class="w-5 " >
+            <img src="./images/panier.jpg" alt="" srcset="">
+        </div>
+    </ul>    
+    </nav>
+     <!-- fin nav-->
+
+    <!--la section avec les Accessoires et le tout parcourir --> 
+    <div class="h-14 max-w-4xl mx-auto flex justify-between items-center">
+         <h3 class=" text-xl font-medium text-black ">Accessoires</h3> 
+         <a href="#" class="text-xs text-black">Tout parcourir</a>   
+    </div>
+    <!-- fin de section accessoire-->
+    <div class="bg-gray-100 border-t border-gray-300 h-20">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl py-4">Coques et protections</h1>
+        </div>
+    </div>
+
+        <!-- debut filtre et selection-->
+        <div class=" boder-t border-b border-gray-300 h-12 py-4 text-gray-400 sticky top-0 bg-white">
+          <div class="max-w-5xl mx-auto flex justify-between items-center text-xs">
+            
+                <div class="flex space-x-2">
+                  <img src="./images/filter.png" alt="filtre"  class="w-4 h-4"/>  
+               
+                    <span>Filtre</span>
+                </div>
+            <div>Trier par :<span class="text-black"> Sélection</span></div>
+
+          </div>
+        </div>
+        <!-- fin filtre et selection-->
+       
+  
+
+    <div class="max-w-6xl mx-auto flex" > <!--Pour que ça soit centré avec "mx-auto" et definir la largeur des elements --> 
+        <ul class="block w-1/4 divide-y font-medium pr-8 pt-8 sticky top-14 self-start text-sm"> <!-- divide-y Pour séparer les éléments avec un trait horizantal class="py-2" -->
+            <li class="py-2 pr-2 justify-between  flex">Type de produit <img src="./images/plus-svgrepo-com.svg" alt="plus" srcset="" class="w-2 "></li>
+            <li class="py-2 pr-2 justify-between  flex">Compatibilté de l'iphone <img src="./images/plus-svgrepo-com.svg" alt="plus" srcset="" class="w-2"></li>
+            <li class="py-2 pr-2 justify-between  flex">Marque <img src="./images/plus-svgrepo-com.svg" alt="plus" srcset="" class="w-2"></li>
+            <li class="py-2 pr-2 justify-between  flex">Couleur <img src="./images/plus-svgrepo-com.svg" alt="plus" srcset="" class="w-2"></li>
+            <li class="py-2 pr-2 justify-between  flex">Matière <img src="./images/plus-svgrepo-com.svg" alt="plus" srcset="" class="w-2"></li>
+            <li class="py-2 pr-2 justify-between  flex">Exclusivement chez Apple <img src="./images/plus-svgrepo-com.svg" alt="plus" srcset="" class="w-2"></li>
+        </ul>
+        <div class="grid grid-cols-3 border-l border-gray-300"><!-- j'utiliser grid-cols-pour faire des colonnes de 3 --> 
+         
+
+                   <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center  "> <!--les bordures en gris . border-b (bordure pour le "bottom") border-r(bordure pour le "top")  --> 
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM2M3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1634340542000" alt="" class="w-80 pt-8 " >
+                        <p class="text-xs font-light text-orange-500 mb-2 font-semibold ">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray font-semibold"> Coque en silicone avec MagSafe pour iphone 13 pro - trèfle </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 "><!--J'ai utilisé" flex justify Center" pour centrer les éléments. et space x-2 pour l’espace horizontal entre les éléments.  --> 
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span> <!-- rounded-full pour faire mon cercle et w-4 et h4 pour la hauteur et largeur  --> 
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+
+                 </div>  
+
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MN5W3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1645481444107" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray font-semibold ">Coque en silicone avec MagSafe pour iPhone 13 mini  </h3>
+                        <p class="text-base text-gray-900  font-semibold">1.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+            
+
+                 </div>  
+
+                 <div class=" pr-3 ">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM1H3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1629962582000" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Coque en silicone avec MagSafe pour iphone 13 pro - trèfle </h3>
+                        <p class="text-base text-gray-900  font-semibold  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+            
+
+                 </div>  
+
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM1G3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1629962564000" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Coque en silicone avec MagSafe pour iphone 13 pro - trèfle </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+
+                 </div>  
+
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM1A3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1629962495000" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Coque en silicone avec MagSafe pour iphone 13 pro - trèfle </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+
+                 </div>  
+
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM2Y3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1630507733000" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Coque en silicone avec MagSafe pour iphone 13 pro - trèfle </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+
+                 </div>  
+
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MN5X3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1645481437457" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Coque en silicone avec MagSafe pour iPhone 13 mini  </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+            
+
+                 </div>  
+       
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHYD3_GEO_FR?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1605310611000" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Housse en cuir avec MagSafe pour iPhone 12 | iPhone 12 Pro - Bleu Baltique  </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+            
+
+                 </div>  
+                 
+                 <div class=" pr-3">
+                    <div class="border-b border-r border-gray-300 text-center">
+                        <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MM6M3?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1630022917000" alt="" class="w-80 pt-8"" >
+                        <p class="text-xs font-light text-orange-500 mb-2  font-semibold">Nouveaux</p>
+                       <h3 class="text-md font-light text-gray  font-semibold"> Smart Cover pour iPad (9ᵉ génération) - Lavande anglaise </h3>
+                        <p class="text-base text-gray-900  font-semibold">5.00 €</p>
+            
+                        <div class="flex justify-center space-x-1 mt-4 mb-2 ">
+                            <span class="rounded-full bg-blue-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-red-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-green-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-yellow-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-teal-500 w-4 h-4 shadow-inner"></span>
+                            <span class="rounded-full bg-gray-500 w-4 h-4 shadow-inner"></span>
+                            
+                        </div>
+                        
+                        </div>
+            
+
+                 </div>  
+       
+       
+           <div>
+            
+           </div>
+            
+           </div>
+       
+
+    </div>
+    <div class="bg-gray-200 border-t border-gray-300 ">
+        <div class="max-w-2xl mx-auto">
+            <p class="py-4">Copyright © 2022 . Tous droits réservés.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
